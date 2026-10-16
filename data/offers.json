@@ -1,0 +1,96 @@
+{
+ "generated": "2026-10-16",
+ "offers": [
+  {
+   "id": "moomoo-welcome",
+   "broker": "moomoo",
+   "title": "Welcome Rewards up to S$1,100 (NVIDIA fractional shares + trading coupons)",
+   "start": "2026-09-30",
+   "deadline": "2026-11-30T21:59:00+08:00",
+   "conditions": "New Universal Account; net deposit tiers S$3k/10k/100k/500k within 30 days; hold 30–90 days to unlock shares; claim before end",
+   "source_url": "https://www.moomoo.com/sg/support/topic5_128",
+   "checked": "2026-10-16",
+   "affiliate_link": null
+  },
+  {
+   "id": "moomoo-moneysmart",
+   "broker": "moomoo",
+   "title": "MoneySmart exclusive: S$138 cash (fund S$2,000, hold 30 days), stackable",
+   "start": "2026-10-01",
+   "deadline": "2026-10-31T23:59:00+08:00",
+   "conditions": "Promo code MONEYSMART1 before first deposit; claim form by 31 Oct",
+   "source_url": "https://www.moneysmart.sg/investments/moomoo-brokerage",
+   "checked": "2026-10-16",
+   "affiliate_link": null,
+   "note": "Third-party aggregator offer"
+  },
+  {
+   "id": "tiger-welcome",
+   "broker": "tiger",
+   "title": "Welcome bonus up to S$1,000 (commission cards + stock coupons)",
+   "start": null,
+   "deadline": "2026-12-31",
+   "conditions": "Net deposit S$3k/10k/100k within 30 days of first deposit; retention reward needs 60 days hold",
+   "source_url": "https://www.itiger.com/sg/market/promotion",
+   "checked": "2026-10-16",
+   "affiliate_link": null
+  },
+  {
+   "id": "tiger-moneysmart",
+   "broker": "tiger",
+   "title": "MoneySmart exclusive: S$160 PayNow / AirPods 4",
+   "start": null,
+   "deadline": "2026-10-31",
+   "conditions": "Fund ≥S$3,000 in initial deposit + 1 buy trade",
+   "source_url": "https://www.moneysmart.sg/investments/tiger-brokers",
+   "checked": "2026-10-16",
+   "affiliate_link": null,
+   "note": "Third-party aggregator offer"
+  },
+  {
+   "id": "webull-welcome",
+   "broker": "webull",
+   "title": "Welcome Rewards up to S$1,938 (NVIDIA shares + vouchers)",
+   "start": null,
+   "deadline": null,
+   "conditions": "Deposit ≥S$3,000 within 30 days of first deposit; tiers to S$300k; hold 30–180 days",
+   "source_url": "https://www.webull.com.sg/activity",
+   "checked": "2026-10-16",
+   "affiliate_link": null,
+   "note": "End date not shown on page"
+  },
+  {
+   "id": "longbridge-90d",
+   "broker": "longbridge",
+   "title": "90-day $0 platform fees for new users (US/HK/SG)",
+   "start": null,
+   "deadline": null,
+   "conditions": "New users; T&Cs",
+   "source_url": "https://longbridge.com/sg/investment-products/trade-us-stocks",
+   "checked": "2026-10-16",
+   "affiliate_link": null
+  },
+  {
+   "id": "saxo-platinum",
+   "broker": "saxo",
+   "title": "Free upgrade to Platinum pricing on opening and funding",
+   "start": null,
+   "deadline": null,
+   "conditions": "Open and fund account",
+   "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/stocks/commissions",
+   "checked": "2026-10-16",
+   "affiliate_link": null
+  },
+  {
+   "id": "webull-sg-commission",
+   "broker": "webull",
+   "title": "S$0 SG stock commission for first year",
+   "start": null,
+   "deadline": null,
+   "conditions": "New clients; then 0.025% min S$0.80",
+   "source_url": "https://www.webull.com.sg/pricing",
+   "checked": "2026-10-16",
+   "affiliate_link": null
+  }
+ ]
+}
