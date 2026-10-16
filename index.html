@@ -20,3 +20,4 @@ document.getElementById('calc').innerHTML='<tr><th>Broker</th><th>Est. fee</th><
 function offers(){const now=Date.now();const o=[...O].sort((a,b)=>(a.deadline?Date.parse(a.deadline):1e15)-(b.deadline?Date.parse(b.deadline):1e15));
 document.getElementById('offers').innerHTML=o.map(x=>{let d=x.deadline?Math.ceil((Date.parse(x.deadline)-now)/864e5):null;return `<div class="card"><b>${x.title}</b> <small>(${x.broker})</small><br><span class="cd">${d==null?'No end date published':d+' days left · ends '+x.deadline.slice(0,10)}</span><br><small>${x.conditions}${x.note?' · '+x.note:''} · <a href="${x.source_url}">source</a> · checked ${x.checked}</small></div>`}).join('')}
 fees();calc();offers();</script></body></html>
+<!-- deploy -->
