@@ -104,7 +104,7 @@
    },
    "fx_spread": {
     "value": "No separate conversion fee; spread embedded in rate (not published)",
-    "source_url": "https://www.itiger.com/sg/help/detail/currency-exchange?lang=en_US",
+    "source_url": "https://www.itiger.com/sg/help/detail/cash-auto-currency-conversion",
     "checked": "2026-10-16",
     "verified_on_official_page": false,
     "note": "Official URL; content read via search-result extract, not full page fetch"
