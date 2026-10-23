@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://k8gmw856mv-a11y.github.io/brokerwatchsg/sitemap.xml
