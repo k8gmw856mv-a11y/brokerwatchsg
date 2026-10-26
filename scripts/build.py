@@ -49,6 +49,7 @@ FOOTER = """<footer>
 COUNTDOWN_JS = """<script>
 function endMs(s){return Date.parse(/^\\d{4}-\\d{2}-\\d{2}$/.test(s)?s+'T23:59:59+08:00':s)}
 function sgtDay(ms){return new Date(ms+8*36e5).toISOString().slice(0,10)}
+function startMs(s){return Date.parse(/^\\d{4}-\\d{2}-\\d{2}$/.test(s)?s+'T00:00:00+08:00':s)}
 (function(){
   var now=Date.now(), today=sgtDay(now);
   document.querySelectorAll('[data-deadline]').forEach(function(el){
@@ -58,8 +59,11 @@ function sgtDay(ms){return new Date(ms+8*36e5).toISOString().slice(0,10)}
     var day=deadline.slice(0,10);
     var cd=el.querySelector('.cd');
     if(!cd) return;
+    var start=el.getAttribute('data-start');
+    var upcoming=!!(start && startMs(start)>now && ms>=now);
     var ended=ms<now;
-    if(ended){el.classList.add('ended'); cd.textContent='Ended · ended '+day;}
+    if(upcoming){el.classList.add('upcoming'); cd.textContent='Upcoming · starts '+start.slice(0,10)+' · ends '+day;}
+    else if(ended){el.classList.add('ended'); cd.textContent='Ended · ended '+day;}
     else {
       var n=Math.round((Date.parse(sgtDay(ms)+'T00:00:00Z')-Date.parse(today+'T00:00:00Z'))/864e5);
       cd.textContent=(n<=0?'Ends today':(n===1?'1 day left':n+' days left'))+' · ends '+day;
@@ -694,6 +698,8 @@ def offer_cards(broker_id: str, offers: list) -> str:
     for offer in matched:
         deadline = offer.get("deadline")
         attr = f' data-deadline="{esc(deadline)}"' if deadline else ""
+        if offer.get("start"):
+            attr += f' data-start="{esc(offer["start"])}"'
         if deadline:
             status = f"Published deadline: {deadline}"
         else:
@@ -995,7 +1001,8 @@ def write_llms(brokers, brokers_doc, offers_doc) -> None:
 
 def allowed_urls(brokers_doc, offers_doc) -> set[str]:
     raw = json.dumps(brokers_doc) + "\n" + json.dumps(offers_doc)
-    found = set(re.findall(r"https?://[^\s\"'\\<>]+", raw))
+    # Stop before ')' so a URL cited in parentheses matches the link audit.
+    found = set(re.findall(r"https?://[^\s\"'\\<>)]+", raw))
     found |= BUTTONDOWN
     found.add("https://schema.org")
     return found

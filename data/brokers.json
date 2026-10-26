@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-26",
  "brokers": [
   {
    "id": "moomoo",
@@ -7,37 +7,37 @@
    "us_commission": {
     "value": "US$0 commission (eligible SG clients)",
     "source_url": "https://www.moomoo.com/sg/support/topic5_76/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
-    "value": "0.03% min S$0.99 after 1-yr free card for new users",
-    "source_url": "https://www.moomoo.com/sg/events/broker-about/pricing",
-    "checked": "2026-10-16",
+    "value": "Commission 0.03% min S$0.99 (S$0 for first year for new users) + platform fee 0.03% min S$0.99",
+    "source_url": "https://www.moomoo.com/sg/support/topic5_118",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
-    "note": "Rate seen in search snippet of official page"
+    "note": "Corrected 26 Oct: previous value omitted the separate SG platform fee"
    },
    "hk_commission": {
-    "value": "HK$15/order platform fee; commission 30 days free for new users",
-    "source_url": "https://www.moomoo.com/sg/events/broker-about/pricing",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
+    "value": "Commission 0.03% min HK$3 (S$0 for 30 days for new users) + platform fee HK$15/order",
+    "source_url": "https://www.moomoo.com/sg/support/topic5_78",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
     "note": null
    },
    "platform_fee": {
-    "value": "US$0.99 per order (US)",
+    "value": "US$0.99 per order (US); fractional <1 share 0.99% of value, max US$0.99",
     "source_url": "https://www.moomoo.com/sg/support/topic5_76/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "fx_spread": {
-    "value": "No additional fee for auto currency exchange; spread not published",
+    "value": "No additional fee for Auto Currency Exchange; rate set by upstream channel, spread not published",
     "source_url": "https://www.moomoo.com/sg/support/topic5_1090",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "custody": {
     "value": null,
@@ -49,7 +49,7 @@
    "min_fee": {
     "value": "US$0.99/order (US)",
     "source_url": "https://www.moomoo.com/sg/support/topic5_76/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -58,8 +58,8 @@
      "flat": 0.99
     },
     "sg": {
-     "pct": 0.0003,
-     "min": 0.99
+     "pct": 0.0006,
+     "min": 1.98
     }
    },
    "referral_program": {
@@ -77,28 +77,28 @@
    "us_commission": {
     "value": "US$0.005/sh, min US$0.99, max 0.5%",
     "source_url": "https://www.tigerbrokers.com.sg/commissions/fees",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "0.03%, min S$0.99",
     "source_url": "https://www.tigerbrokers.com.sg/commissions/fees",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "0.03%, min HK$7",
     "source_url": "https://www.tigerbrokers.com.sg/commissions/fees",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "platform_fee": {
     "value": "US: US$0.005/sh min US$1; SG: 0.03% min S$1; HK: 0.03% min HK$8",
     "source_url": "https://www.tigerbrokers.com.sg/commissions/fees",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -112,14 +112,14 @@
    "custody": {
     "value": "SGX custody S$2/qtr — waived until further notice",
     "source_url": "https://www.tigerbrokers.com.sg/commissions/fees",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "min_fee": {
     "value": "US: US$1.99 total (comm+platform); SG: S$1.99",
     "source_url": "https://www.tigerbrokers.com.sg/commissions/fees",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -148,37 +148,37 @@
    "us_commission": {
     "value": "US$0.005/sh, min US$1, max 1%",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "0.08%, min S$2.50",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "0.08%, min HK$18",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "platform_fee": {
     "value": "None",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "fx_spread": {
-    "value": "AutoFX 3 bps; manual FX 0.20 bps, min US$2",
+    "value": "Manual FX 0.20 bps × trade value, min US$2; auto-conversion adds 0.03% (3 bps)",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-spot-currencies.php",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "custody": {
     "value": null,
@@ -190,7 +190,7 @@
    "min_fee": {
     "value": "US$1 (US)",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -219,28 +219,28 @@
    "us_commission": {
     "value": "US$0 for US exchange-listed stocks/ETFs ≥US$1 (SG retail)",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "Fixed pricing (0.08% min S$2.50)",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": "Lite only covers US listed; other markets fall back to Fixed per footnote"
    },
    "hk_commission": {
     "value": "Fixed pricing",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "platform_fee": {
     "value": "None",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -249,7 +249,7 @@
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-home.php",
     "checked": "2026-10-16",
     "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "note": "Not re-verified 26 Oct: official spot-currencies page shows auto-conversion at 0.03% (3 bps) and does not show the 9 bps figure; needs a Lite-specific source"
    },
    "custody": {
     "value": null,
@@ -261,7 +261,7 @@
    "min_fee": {
     "value": "US$0",
     "source_url": "https://www.interactivebrokers.com.sg/en/pricing/commissions-stocks.php",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -289,14 +289,14 @@
    "us_commission": {
     "value": "US$0 commission, US$0 platform fee",
     "source_url": "https://www.webull.com.sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "0.025%, min S$0.80 (S$0 first year for new clients)",
     "source_url": "https://www.webull.com.sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -310,7 +310,7 @@
    "platform_fee": {
     "value": "US$0 (US)",
     "source_url": "https://www.webull.com.sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -331,7 +331,7 @@
    "min_fee": {
     "value": "S$0.80 (SG)",
     "source_url": "https://www.webull.com.sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -359,30 +359,30 @@
    "us_commission": {
     "value": "US$0 lifetime; platform US$0.005/sh min US$0.99",
     "source_url": "https://longbridge.com/sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "S$0; platform 0.03% min S$0.99",
     "source_url": "https://longbridge.com/sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "HK$0; platform HK$15/order",
     "source_url": "https://longbridge.com/sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "platform_fee": {
-    "value": "90-day platform fee waiver for new users",
-    "source_url": "https://longbridge.com/sg/pricing",
-    "checked": "2026-10-19",
+    "value": "90-day $0 platform fees for new users (US, HK & SG stocks)",
+    "source_url": "https://longbridge.com/sg/investment-products/trade-us-stocks",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
-    "note": null
+    "note": "Waiver not shown on the pricing page; source moved to the trade-us-stocks page where it is stated"
    },
    "fx_spread": {
     "value": "No service fee; rate may differ from indicative rate",
@@ -401,7 +401,7 @@
    "min_fee": {
     "value": "US$0.99 (US)",
     "source_url": "https://longbridge.com/sg/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -430,21 +430,21 @@
    "us_commission": {
     "value": "from US$1",
     "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/stocks/commissions",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
-    "note": "Rate table failed to load; only headline figure"
+    "note": "Rate table failed to load again on 26 Oct; only headline figure"
    },
    "sg_commission": {
     "value": "from S$3",
     "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/stocks/commissions",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "from HK$15",
     "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/stocks/commissions",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -458,21 +458,21 @@
    "fx_spread": {
     "value": "±0.25% on FX mid",
     "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/commissions-charges-and-margin-schedule",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "custody": {
     "value": "0.12%/yr (0.06% VIP) if opted out of securities lending; 0% if opted in; SGX free for SG residents",
     "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/stocks/commissions",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "min_fee": {
     "value": "US$1 / S$3",
     "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/stocks/commissions",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -499,28 +499,28 @@
    "us_commission": {
     "value": "US$0 (from 13 May 2026; online, ≥US$1 stocks)",
     "source_url": "https://www.poems.com.sg/cash-plus/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "0.08%, no minimum (Starter tier)",
     "source_url": "https://www.poems.com.sg/cash-plus/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "0.08%, min HK$30",
     "source_url": "https://www.poems.com.sg/cash-plus/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "platform_fee": {
     "value": "None",
     "source_url": "https://www.poems.com.sg/cash-plus/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -533,15 +533,15 @@
    },
    "custody": {
     "value": "US/HK foreign custody waived until 31 Dec 2027",
-    "source_url": "https://www.poems.com.sg/stocks/pricing/",
-    "checked": "2026-10-16",
+    "source_url": "https://www.poems.com.sg/cash-plus/",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "min_fee": {
     "value": "None (SG), US$0 (US)",
     "source_url": "https://www.poems.com.sg/cash-plus/",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -569,28 +569,28 @@
    "us_commission": {
     "value": "US$0 commission & platform fee",
     "source_url": "https://www.syfe.com/trade/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "0.06% min S$1.98 (Blue tier)",
     "source_url": "https://www.syfe.com/trade/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "0.06% min HK$15 (Blue)",
     "source_url": "https://www.syfe.com/trade/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "platform_fee": {
     "value": "US$0",
     "source_url": "https://www.syfe.com/trade/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -611,7 +611,7 @@
    "min_fee": {
     "value": "S$1.98 (SG)",
     "source_url": "https://www.syfe.com/trade/pricing",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -635,34 +635,34 @@
   },
   {
    "id": "fsmone",
-   "name": "FSMOne",
+   "name": "FSM Global (formerly FSMOne)",
    "us_commission": {
     "value": "0.08% (min US$3.80 per third-party reviews)",
     "source_url": "https://secure.fundsupermart.com/fsm/new-to-fsm/pricing-structure?locale=zh_cn",
     "checked": "2026-10-16",
     "verified_on_official_page": false,
-    "note": "0.08% from official page title; min only from third-party"
+    "note": "0.08% from official page title; min only from third-party; Not re-verified 26 Oct: FSMOne rebranded to FSM Global (fsm.global/sg); pricing page now shows fund fees only"
    },
    "sg_commission": {
-    "value": "S$8.80 flat",
-    "source_url": "https://secure.fundsupermart.com/fsm/new-to-fsm/pricing-structure?locale=zh_cn",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official FSMOne page title (zh) states S$8.80 flat SGX / 0.08% HK & US; page body not fetched"
+    "value": "S$8.80 flat (SGX stocks); S$3.80 flat (SGX ETFs)",
+    "source_url": "https://fsm.global/sg/article/rcms396220/sgx-cuts-minimum-board-lot-to-10-shares-heres-what-it-means-for-invest",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": "Official FSM Global article dated 28 Sep 2026"
    },
    "hk_commission": {
     "value": "0.08%",
     "source_url": null,
     "checked": "2026-10-16",
     "verified_on_official_page": false,
-    "note": null
+    "note": "Not re-verified 26 Oct: FSMOne rebranded to FSM Global (fsm.global/sg); pricing page now shows fund fees only"
    },
    "platform_fee": {
-    "value": null,
-    "source_url": null,
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Not found on official page in this pass"
+    "value": "None for stocks (no platform, custody or corporate action fees)",
+    "source_url": "https://fsm.global/sg/article/rcms396220/sgx-cuts-minimum-board-lot-to-10-shares-heres-what-it-means-for-invest",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "fx_spread": {
     "value": null,
@@ -672,18 +672,18 @@
     "note": "Not found on official page in this pass"
    },
    "custody": {
-    "value": null,
-    "source_url": null,
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Not found on official page in this pass"
+    "value": "None (no custody fees for stocks)",
+    "source_url": "https://fsm.global/sg/article/rcms396220/sgx-cuts-minimum-board-lot-to-10-shares-heres-what-it-means-for-invest",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "min_fee": {
     "value": "US$3.80",
     "source_url": null,
     "checked": "2026-10-16",
     "verified_on_official_page": false,
-    "note": null
+    "note": "Not re-verified 26 Oct: FSMOne rebranded to FSM Global (fsm.global/sg); pricing page now shows fund fees only"
    },
    "calc": {
     "us": {
@@ -701,7 +701,7 @@
     "verified_on_official_page": false,
     "note": "No publicly documented referral/affiliate program found in this pass"
    },
-   "notes": null
+   "notes": "FSMOne is now branded FSM Global (fsm.global/sg); funds platform fees apply to unit trusts/bonds, not covered here"
   },
   {
    "id": "usmart",
@@ -711,7 +711,7 @@
     "source_url": null,
     "checked": "2026-10-16",
     "verified_on_official_page": false,
-    "note": "From Google Play/growbeansprout snippets; official SG page not fetched"
+    "note": "Not re-verified 26 Oct: official pricing is JS-rendered; uSMART help-centre title says 'Trade US Stocks and ETFs at only $0.88/order' (https://www.usmart.sg/help-key/AdjustmentofUSStockFees) but full terms not read"
    },
    "sg_commission": {
     "value": null,
@@ -771,21 +771,21 @@
    "us_commission": {
     "value": "Cash upfront 0.15% min US$19.62 (fractional <1 share free to 31 Dec 2026)",
     "source_url": "https://www.dbsvickers.com/vickers/pricing/individualaccount",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "Cash upfront (buy only) 0.12% min S$10.90; cash 0.18% min S$27.25 (mins incl. GST)",
     "source_url": "https://www.dbsvickers.com/vickers/pricing/individualaccount",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "Cash upfront 0.15% min HK$87.20",
     "source_url": "https://www.dbsvickers.com/vickers/pricing/individualaccount",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -842,21 +842,21 @@
    "us_commission": {
     "value": "UTRADE X 0.12% min US$13",
     "source_url": "https://uobkh.com.sg/en/faq/article/equities",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "sg_commission": {
     "value": "UTRADE X 0.12% min S$10; cash 0.275% min S$25",
     "source_url": "https://uobkh.com.sg/en/faq/article/equities",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
    "hk_commission": {
     "value": "UTRADE X 0.12% min HK$75",
     "source_url": "https://uobkh.com.sg/en/faq/article/equities",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -877,7 +877,7 @@
    "custody": {
     "value": "In-house custody S$2 (foreign markets); CDP sub-account S$15/qtr",
     "source_url": "https://uobkh.com.sg/en/faq/article/equities",
-    "checked": "2026-10-19",
+    "checked": "2026-10-26",
     "verified_on_official_page": true,
     "note": null
    },
@@ -911,25 +911,25 @@
    "id": "ocbc",
    "name": "OCBC Securities",
    "us_commission": {
-    "value": null,
-    "source_url": null,
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Not found on official page in this pass"
+    "value": "Online 0.30%, min US$20",
+    "source_url": "https://www.iocbc.com/iwov-resources/sg/ocbc/ospl/PDF/ConsolidatedCommissionCharges.pdf",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "sg_commission": {
-    "value": "Online 0.275% (≤S$50k), no minimum from 5 Oct 2026; cash upfront buy 0.12% min S$10",
+    "value": "Online 0.275% (≤S$50k), 0.22% (S$50k–100k), 0.18% (>S$100k); no minimum from 5 Oct 2026 (was S$25)",
     "source_url": "https://www.iocbc.com/iwov-resources/sg/ocbc/ospl/PDF/ConsolidatedCommissionCharges.pdf",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch; no-min change per https://www.iocbc.com/notices"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": "Read from official PDF 26 Oct; 'cash upfront buy 0.12% min S$10' not found in the PDF and removed; no-min change also on https://www.iocbc.com/notices"
    },
    "hk_commission": {
-    "value": null,
-    "source_url": null,
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Not found on official page in this pass"
+    "value": "Online 0.25%, min HK$100 (from 11 Aug 2026; was HK$150)",
+    "source_url": "https://www.iocbc.com/iwov-resources/sg/ocbc/ospl/PDF/ConsolidatedCommissionCharges.pdf",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "platform_fee": {
     "value": null,
@@ -963,6 +963,10 @@
     "sg": {
      "pct": 0.00275,
      "min": 0
+    },
+    "us": {
+     "pct": 0.003,
+     "min": 20
     }
    },
    "referral_program": {
@@ -978,25 +982,25 @@
    "id": "cgs",
    "name": "CGS International iTrade",
    "us_commission": {
-    "value": null,
-    "source_url": null,
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Not found on official page in this pass"
+    "value": "Cash upfront/iCash 0.18% min US$18; CTA 0.30% min US$20",
+    "source_url": "https://itrade.cgsi.com.sg/app/help.client.services.z?cat=01&subcat=01_05",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "sg_commission": {
-    "value": "Cash upfront 0.18%; online CDP-linked 0.275% min S$25",
+    "value": "Cash upfront/iCash 0.18%, no minimum from 5 Oct 2026; CDP-linked online 0.275% (≤S$50k) min S$25; CDP sub-account 0.18% min S$18",
     "source_url": "https://itrade.cgsi.com.sg/app/help.client.services.z?cat=01&subcat=01_05",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch; CUT min shown as S$18 on iCash FAQ, 'SGD 1' on an insights page — conflicting"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": "Re-read on official CGS iTrade pricing 26 Oct; resolves earlier S$18 vs S$1 conflict for cash upfront"
    },
    "hk_commission": {
-    "value": null,
-    "source_url": null,
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Not found on official page in this pass"
+    "value": "Cash upfront 0.18% min HK$88; CTA 0.25% min HK$88",
+    "source_url": "https://itrade.cgsi.com.sg/app/help.client.services.z?cat=01&subcat=01_05",
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "platform_fee": {
     "value": null,
@@ -1026,7 +1030,16 @@
     "verified_on_official_page": false,
     "note": "Not found on official page in this pass"
    },
-   "calc": null,
+   "calc": {
+    "us": {
+     "pct": 0.0018,
+     "min": 18
+    },
+    "sg": {
+     "pct": 0.0018,
+     "min": 0
+    }
+   },
    "referral_program": {
     "value": null,
     "source_url": null,
@@ -1040,25 +1053,25 @@
    "id": "scb",
    "name": "Standard Chartered Online Trading",
    "us_commission": {
-    "value": "0.25% (Personal) / 0.20% (Priority); min US$10 Personal",
+    "value": "0.25% (Personal, min US$10) / 0.20% (Priority, no min)",
     "source_url": "https://www.sc.com/sg/wealth/investment/online-trading/",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "sg_commission": {
     "value": "0.20% (Personal, min S$10) / 0.18% (Priority, no min)",
     "source_url": "https://www.sc.com/sg/wealth/investment/online-trading/",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "hk_commission": {
-    "value": "0.25%/0.20%, min HK$100 Personal",
+    "value": "0.25% (Personal, min HK$100) / 0.20% (Priority, no min)",
     "source_url": "https://www.sc.com/sg/wealth/investment/online-trading/",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "platform_fee": {
     "value": null,
@@ -1077,9 +1090,9 @@
    "custody": {
     "value": "S$0",
     "source_url": "https://www.sc.com/sg/wealth/investment/online-trading/",
-    "checked": "2026-10-16",
-    "verified_on_official_page": false,
-    "note": "Official URL; content read via search-result extract, not full page fetch"
+    "checked": "2026-10-26",
+    "verified_on_official_page": true,
+    "note": null
    },
    "min_fee": {
     "value": null,

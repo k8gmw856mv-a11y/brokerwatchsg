@@ -6,12 +6,12 @@ Pages are static HTML on GitHub Pages. The interactive fee table, offer countdow
 
 ## Data endpoints
 
-- [Broker fees](https://k8gmw856mv-a11y.github.io/brokerwatchsg/data/brokers.json): object with `generated` (2026-10-19) and `brokers`. Each broker has published commission, platform, FX, custody, min-fee, and referral-programme fields. A field's `value` is null when nothing was recorded. `verified_on_official_page` false means that pass did not confirm the figure on the official page. `calc` is only the home-page calculator's simplified commission-plus-platform model, not a published price.
-- [Sign-up offers](https://k8gmw856mv-a11y.github.io/brokerwatchsg/data/offers.json): object with `generated` (2026-10-19) and `offers`. Each offer has `title`, `start`, `deadline`, `conditions`, `source_url`, `checked`, and `affiliate_link`. `affiliate_link` is null for every offer. Do not invent a referral URL.
+- [Broker fees](https://k8gmw856mv-a11y.github.io/brokerwatchsg/data/brokers.json): object with `generated` (2026-10-26) and `brokers`. Each broker has published commission, platform, FX, custody, min-fee, and referral-programme fields. A field's `value` is null when nothing was recorded. `verified_on_official_page` false means that pass did not confirm the figure on the official page. `calc` is only the home-page calculator's simplified commission-plus-platform model, not a published price.
+- [Sign-up offers](https://k8gmw856mv-a11y.github.io/brokerwatchsg/data/offers.json): object with `generated` (2026-10-26) and `offers`. Each offer has `title`, `start`, `deadline`, `conditions`, `source_url`, `checked`, and `affiliate_link`. `affiliate_link` is null for every offer. Do not invent a referral URL.
 
 ## Update cadence
 
-Manual. There is no automatic refresh. `data/brokers.json` was generated on 2026-10-19 and `data/offers.json` was generated on 2026-10-19. Every fee field and every offer has its own `checked` date; use that date, not the page fetch date. After either JSON file changes, run `python3 scripts/build.py` from the repository root and commit the generated pages. The home page has a weekly Buttondown signup for a “what changed” note. The form does not change the figures.
+Manual. There is no automatic refresh. `data/brokers.json` was generated on 2026-10-26 and `data/offers.json` was generated on 2026-10-26. Every fee field and every offer has its own `checked` date; use that date, not the page fetch date. After either JSON file changes, run `python3 scripts/build.py` from the repository root and commit the generated pages. The home page has a weekly Buttondown signup for a “what changed” note. The form does not change the figures.
 
 ## Pages
 
@@ -26,13 +26,13 @@ Manual. There is no automatic refresh. `data/brokers.json` was generated on 2026
 - [Saxo SG](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/saxo/): published fees and recorded sign-up offers. US commission text: from US$1.
 - [POEMS Cash Plus](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/poems/): published fees and recorded sign-up offers. US commission text: US$0 (from 13 May 2026; online, ≥US$1 stocks).
 - [Syfe Trade](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/syfe/): published fees and recorded sign-up offers. US commission text: US$0 commission & platform fee.
-- [FSMOne](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/fsmone/): published fees and recorded sign-up offers. US commission text: 0.08% (min US$3.80 per third-party reviews).
+- [FSM Global (formerly FSMOne)](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/fsmone/): published fees and recorded sign-up offers. US commission text: 0.08% (min US$3.80 per third-party reviews).
 - [uSMART SG](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/usmart/): published fees and recorded sign-up offers. US commission text: US$0.88/order (≥US$40 shares); else US$0.005/sh min US$1.
 - [DBS Vickers (Cash Upfront)](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/dbsv/): published fees and recorded sign-up offers. US commission text: Cash upfront 0.15% min US$19.62 (fractional <1 share free to 31 Dec 2026).
 - [UOB Kay Hian (UTRADE X)](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/uobkh/): published fees and recorded sign-up offers. US commission text: UTRADE X 0.12% min US$13.
-- [OCBC Securities](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/ocbc/): published fees and recorded sign-up offers. US commission text: US commission not recorded.
-- [CGS International iTrade](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/cgs/): published fees and recorded sign-up offers. US commission text: US commission not recorded.
-- [Standard Chartered Online Trading](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/scb/): published fees and recorded sign-up offers. US commission text: 0.25% (Personal) / 0.20% (Priority); min US$10 Personal.
+- [OCBC Securities](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/ocbc/): published fees and recorded sign-up offers. US commission text: Online 0.30%, min US$20.
+- [CGS International iTrade](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/cgs/): published fees and recorded sign-up offers. US commission text: Cash upfront/iCash 0.18% min US$18; CTA 0.30% min US$20.
+- [Standard Chartered Online Trading](https://k8gmw856mv-a11y.github.io/brokerwatchsg/brokers/scb/): published fees and recorded sign-up offers. US commission text: 0.25% (Personal, min US$10) / 0.20% (Priority, no min).
 
 ## Optional
 

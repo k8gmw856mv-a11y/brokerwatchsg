@@ -27,6 +27,8 @@ th { background: #f3f5f8; cursor: pointer; }
 }
 .ended { opacity: .55; background: #f6f6f6; }
 .ended .cd { color: #777; font-weight: 600; }
+.upcoming { background: #f4f8fb; }
+.upcoming .cd { color: #1a5276; }
 .cd { font-weight: bold; color: #c0392b; }
 small { color: #666; }
 a { overflow-wrap: anywhere; }

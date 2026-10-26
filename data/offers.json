@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19",
+ "generated": "2026-10-26",
  "offers": [
   {
    "id": "moomoo-welcome",
@@ -9,18 +9,18 @@
    "deadline": "2026-11-30T21:59:00+08:00",
    "conditions": "New Universal Account; net deposit tiers S$3k/10k/100k/500k within 30 days; hold 30–90 days to unlock shares; claim before end",
    "source_url": "https://www.moomoo.com/sg/support/topic5_128",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
    "id": "moomoo-moneysmart",
    "broker": "moomoo",
-   "title": "MoneySmart exclusive: S$138 cash (fund S$2,000, hold 30 days), stackable",
+   "title": "MoneySmart exclusive: S$138 cash (fund S$2,000, hold 30 days), stackable; S$800 cash at S$250,000",
    "start": "2026-10-01",
    "deadline": "2026-10-31T23:59:00+08:00",
-   "conditions": "Promo code MONEYSMART1 before first deposit; claim form by 31 Oct",
+   "conditions": "Promo code MONEYSMART1 before first deposit; claim form by 31 Oct; S$250,000 single deposit held 90 days → S$800 cash via PayNow; alternative rewards Sennheiser headphones or S$130 GrabGift",
    "source_url": "https://www.moneysmart.sg/investments/moomoo-brokerage",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null,
    "note": "Third-party aggregator offer"
   },
@@ -32,7 +32,7 @@
    "deadline": "2026-12-31",
    "conditions": "Net deposit S$3k/10k/100k within 30 days of first deposit; retention reward needs 60 days hold",
    "source_url": "https://www.itiger.com/sg/market/promotion",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
@@ -43,7 +43,7 @@
    "deadline": "2026-10-31",
    "conditions": "Fund ≥S$3,000 in initial deposit + 1 buy trade",
    "source_url": "https://www.moneysmart.sg/investments/tiger-brokers",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null,
    "note": "Third-party aggregator offer"
   },
@@ -55,7 +55,7 @@
    "deadline": null,
    "conditions": "Deposit ≥S$3,000 within 30 days of first deposit; tiers to S$300k; hold 30–180 days",
    "source_url": "https://www.webull.com.sg/activity",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null,
    "note": "End date not shown on page"
   },
@@ -67,7 +67,7 @@
    "deadline": null,
    "conditions": "New users; T&Cs",
    "source_url": "https://longbridge.com/sg/investment-products/trade-us-stocks",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
@@ -78,7 +78,7 @@
    "deadline": null,
    "conditions": "Open and fund account",
    "source_url": "https://www.home.saxo/en-sg/rates-and-conditions/stocks/commissions",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
@@ -89,7 +89,7 @@
    "deadline": null,
    "conditions": "New clients; then 0.025% min S$0.80",
    "source_url": "https://www.webull.com.sg/pricing",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
@@ -100,9 +100,9 @@
    "deadline": "2026-10-31T23:59:59+08:00",
    "conditions": "New SG residents with no prior Longbridge SG account; deposit/hold/buy-trade tiers; T&Cs apply",
    "source_url": "https://longbridge.com/sg/en/promotions/welcome-rewards",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null,
-   "note": "S$1,388 headline from official page; 1–31 Oct period from third-party summaries, not shown on the official page"
+   "note": "S$1,388 headline re-seen on official page 26 Oct; 1–31 Oct period still only from third-party summaries"
   },
   {
    "id": "longbridge-options-newcomer",
@@ -112,7 +112,7 @@
    "deadline": "2026-10-31T23:59:59+08:00",
    "conditions": "No prior deposits before 1 Oct; first deposit ≥S$500 (US$10 card), 1st options order (+US$5), 5th options order (+US$10); options permissions/suitability rules still apply",
    "source_url": "https://longbridge.com/sg/en/support/topics/ongoingcampaigns/ue9o55",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
@@ -123,8 +123,9 @@
    "deadline": "2026-12-31T23:59:00+08:00",
    "conditions": "Enrol and apply code TRADEMORE before funding; fund ≥S$2,000 fresh funds and buy ≥S$100 within 30 days; hold 90 days; capped at first 10,000 code applications; cash credits are non-withdrawable",
    "source_url": "https://www.syfe.com/magazine/syfe-bk-mystery-box-2026/",
-   "checked": "2026-10-19",
-   "affiliate_link": null
+   "checked": "2026-10-26",
+   "affiliate_link": null,
+   "note": "Existing users also eligible (Mystery Boxes + S$50 fee credits). Page shows start as both 9 Sep and 1 Sep 2026"
   },
   {
    "id": "syfe-singsaver",
@@ -132,9 +133,9 @@
    "title": "SingSaver exclusive: up to S$800 brokerage cash credits",
    "start": "2026-10-01",
    "deadline": "2026-10-31T23:59:00+08:00",
-   "conditions": "New-to-Syfe; apply code SINGSAVER1; single lump sum ≥S$2,000 within 14 days of applying code; hold 30 days",
+   "conditions": "New-to-Syfe; apply code SINGSAVER1; single lump sum ≥S$2,000 within 14 days of applying code; hold 30 days; capped at first 2,000 qualified users; tiers S$10 credits at S$2k to S$800 at S$250k plus free US trades; MacBook lucky draw for ≥S$5k",
    "source_url": "https://www.syfe.com/magazine/syfe-singsaver-promotion-terms-and-conditions/",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null,
    "note": "Third-party aggregator offer (terms on Syfe's site)"
   },
@@ -146,7 +147,7 @@
    "deadline": "2026-12-31",
    "conditions": "Open a new individual account 1 Oct–31 Dec 2026 and make 1 online US buy trade (≥1 share) by 31 Jan 2027 for US$30; +US$30 for 1 additional online non-US trade by 31 Jan 2027",
    "source_url": "https://www.dbsvickers.com/vickers-sc/promotion/vickers-earn-up-to-USD60NVDAinshares-promo",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
@@ -157,7 +158,7 @@
    "deadline": null,
    "conditions": "Ages 18–25; promotion period not stated on page",
    "source_url": "https://www.dbsvickers.com/vickers/pricing/individualaccount",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null
   },
   {
@@ -166,11 +167,58 @@
    "title": "Up to S$2,000 welcome rewards (cash vouchers by deposit and monthly trade tiers)",
    "start": "2026-10-01",
    "deadline": "2026-12-31",
-   "conditions": "New uSMART SG customers; tiers from S$1,000 deposit + 2 trades/month; stackable with SingSaver exclusive",
+   "conditions": "New uSMART SG customers; S$1k + 2 trades/month up to S$36; S$2k + 3 trades up to S$180; S$10k + 5 trades up to S$300; S$100k + 8 trades up to S$1,200; >S$500k + 10 trades up to S$1,980; plus 0.02 TSLA share voucher and up to S$14 action vouchers",
    "source_url": "https://www.singsaver.com.sg/investments/products/usmart-sg",
-   "checked": "2026-10-19",
+   "checked": "2026-10-26",
    "affiliate_link": null,
    "note": "Third-party aggregator listing; not verified on uSMART's own page"
+  },
+  {
+   "id": "longbridge-options-newcomer-nov",
+   "broker": "longbridge",
+   "title": "Options newcomer reward (Nov): up to US$25 in options cash cards",
+   "start": "2026-11-01",
+   "deadline": "2026-11-30T23:59:59+08:00",
+   "conditions": "No deposits before 1 Nov; first deposit ≥S$500 (US$10 card), 1st options order (+US$5), 5th options order (+2×US$5); max US$25; cards expire 30 days after receipt; options suitability rules apply",
+   "source_url": "https://longbridge.com/sg/en/support/topics/ongoingcampaigns/stt51u",
+   "checked": "2026-10-26",
+   "affiliate_link": null
+  },
+  {
+   "id": "poems-welcome-gifts",
+   "broker": "poems",
+   "title": "Welcome gifts: up to 10×S$20 US/SG stock coupons + 3,000 POEMS Coins",
+   "start": "2026-09-01",
+   "deadline": "2026-11-01T23:59:59+08:00",
+   "conditions": "New to PSPL; open Cash Plus account and opt in to SMART Park within 14 days; fund S$3,000 within 14 days and hold 30 days → 5×S$10 coupons + 1,000 coins; S$10,000 → 10×S$20 coupons + 3,000 coins; coupons expire 90 days",
+   "source_url": "https://www.poems.com.sg/welcome-gifts/",
+   "checked": "2026-10-26",
+   "affiliate_link": null,
+   "note": "Live since 1 Sep; first added to tracker 26 Oct. End time of day not stated (1 Nov inclusive assumed)"
+  },
+  {
+   "id": "moomoo-singsaver",
+   "broker": "moomoo",
+   "title": "SingSaver sign-up route: SingSaver reward on top of moomoo Welcome Rewards",
+   "start": "2026-09-30",
+   "deadline": "2026-11-30T22:59:00+08:00",
+   "conditions": "Sign up via SingSaver; single deposit ≥S$2,000 within 30 days of account opening, held 30 days; submit SingSaver redemption form; cannot combine with MoneySmart route",
+   "source_url": "https://www.moomoo.com/sg/support/topic5_1102/",
+   "checked": "2026-10-26",
+   "affiliate_link": null,
+   "note": "Campaign dates/conditions from moomoo T&C. Reward amount not verified on an official page; SingSaver comparison page on 26 Oct showed reward options worth S$130–S$144 marked '7 days left', so reward choices may change around 2 Nov"
+  },
+  {
+   "id": "scb-up-your-wealth-game",
+   "broker": "scb",
+   "title": "Up Your Wealth Game: up to S$740 cash across SC digital wealth solutions",
+   "start": null,
+   "deadline": "2026-12-31",
+   "conditions": "New and returning Wealth clients; S$740 total spans several SC digital wealth products, not online trading alone; T&Cs apply",
+   "source_url": "https://www.sc.com/sg/wealth/investment/online-trading/",
+   "checked": "2026-10-26",
+   "affiliate_link": null,
+   "note": "Online-trading portion of the S$740 not verified on an official page"
   }
  ]
 }
